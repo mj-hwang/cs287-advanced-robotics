@@ -1,0 +1,11 @@
+name: cs287hw2
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.7.3
+- jupyter
+- patchelf=0.9 # comment this line out on Mac
+- pip>=19.1
+- pip:
+    - -r ./requirements.txt
