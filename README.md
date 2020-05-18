@@ -9,7 +9,7 @@ Followings are those projects and related materials covered/implemented in each 
   - DDP
   - Feedback Linearization
 
-- Project 3
+- [Project 3](/cs287hw3)
   - Convex Optimiazation
   - Sequential Convex Programming
   - Motion Planning and Control (w/ convex opt.)
