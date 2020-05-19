@@ -14,3 +14,10 @@ Followings are those projects and related materials covered/implemented in each 
   - Convex Optimiazation
   - Sequential Convex Programming
   - Motion Planning and Control (w/ convex opt.)
+  
+- [Project 4](/cs287hw4)
+  - Multivariate Gaussians
+  - Kalman Filtering
+  - EM & MLE
+  - Particle Filtering
+  - Belief Space Planning
