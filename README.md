@@ -1,6 +1,7 @@
 # Optimal Control, Reinforcement Learning & Robotics Projects in CS 287: Advanced Robotics (fall 2019)
 
 **This repository contains past projects I've completed in CS 287, which I took in Berkeley EECS department under Prof. Pieter Abbeel, in fall 2019.**
+(https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/)
 
 Followings are those projects and related materials covered/implemented in each project.
 
