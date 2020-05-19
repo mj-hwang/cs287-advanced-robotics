@@ -5,17 +5,22 @@
 
 Followings are those projects and related materials covered/implemented in each project.
 
-- [Project 2](/cs287hw2)
+- **Project 1**
+  - Value Iteration
+  - Dicretization-based Optimal Control
+  - Function Approximation Optimal Control
+
+- [**Project 2**](/cs287hw2)
   - LQR, iLQR
   - DDP
   - Feedback Linearization
 
-- [Project 3](/cs287hw3)
+- [**Project 3**](/cs287hw3)
   - Convex Optimiazation
   - Sequential Convex Programming
   - Motion Planning and Control (w/ convex opt.)
   
-- [Project 4](/cs287hw4)
+- [**Project 4**](/cs287hw4)
   - Multivariate Gaussians
   - Kalman Filtering
   - EM & MLE
