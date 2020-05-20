@@ -1,0 +1,28 @@
+name: cs294drl_hw5_sac
+# dependencies:
+#     - python==3.4.5
+#     - pip:
+#         - gym==0.10.8
+#         - numpy==1.15.2
+#         - tensorflow-gpu==1.10.0
+#         - tensorflow-probability==0.4.0
+#         - mujoco-py==1.50.1.56
+#         - seaborn==0.9.0
+dependencies:
+    - python=3.5
+    - numpy=1.14.5
+    - pandas
+    - scipy
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - jupyter
+    - patchelf
+    - pip:
+        - Cython
+        - https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.13.1-cp35-cp35m-linux_x86_64.whl
+        - mujoco-py==1.50.1.56
+        - box2d==2.3.2
+        - opencv-python
+        - gym[atari]==0.10.5
+        - tensorflow-probability==0.6.0

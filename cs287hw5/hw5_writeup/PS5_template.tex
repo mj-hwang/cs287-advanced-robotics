@@ -1,0 +1,309 @@
+\documentclass[10pt]{article}
+\usepackage{fullpage,amsmath,amssymb,verbatim,enumitem,graphicx, subcaption}
+\begin{document}
+
+{\parindent 0pt \begin{tabular}[t]{l}
+CS 287 (Advanced Robotics) \\
+\end{tabular}  \hfill \today \vskip 0.2in }
+
+\parindent 0pt
+\parskip 2pt
+
+\begin{center}
+\large\bf Homework \#5 \\
+\end{center}
+
+\textbf{1A.}[20pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/pg.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+
+\clearpage 
+
+\textbf{1B.}[20 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/baseline.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{1C.}[10 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/clipper.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{1D.}[10 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/ppo_obj.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{1E.}[20 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/entropy.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{1F. Extra credits}
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/gae.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+
+\clearpage
+\textbf{1G. Extra credits, no examples :)} [20 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{2A.}[20 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/mbppo.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+\textbf{2B. Extra credits, no examples :)}[20 pts] Loss type 1
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+Loss type 2
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+
+\textbf{2C. Extra Credits}[20 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/meppo.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Swimmer}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/newplot.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+\clearpage
+
+\textbf{3A.1 & 3A.2 Extra Credits}[20 pts]
+
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/sac_cheetah.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/ph_sac.png}
+        \caption{Ant}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/ph_sac.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+
+\clearpage
+\textbf{3A.3 Extra Credits}[10 pts]
+\begin{figure*}[ht!]
+    \centering
+    \begin{subfigure}[h]{0.6\linewidth}
+        \centering
+        \includegraphics[height=2in]{figures/ph_sac.png}
+        \caption{Cheetah}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/ph_sac.png}
+        \caption{Ant}
+    \end{subfigure}
+    \vskip 0.3in
+    \begin{subfigure}[h]{0.6\textwidth}
+        \centering
+        \includegraphics[height=2in]{figures/ph_sac.png}
+        \caption{Hopper}
+    \end{subfigure}
+\end{figure*}
+
+\end{document}
