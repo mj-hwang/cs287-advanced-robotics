@@ -1,0 +1,10 @@
+{
+  "batch_size": 256,
+  "env": "MountainCarEnv",
+  "horizon": 5,
+  "learning_rate": 0.001,
+  "max_iter": 250,
+  "num_acts": 32,
+  "policy_type": "cem",
+  "render": false
+}

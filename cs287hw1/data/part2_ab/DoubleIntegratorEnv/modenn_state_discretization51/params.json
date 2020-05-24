@@ -1,0 +1,10 @@
+{
+  "action_discretization": 5,
+  "env": "DoubleIntegratorEnv",
+  "horizon": 1,
+  "max_iter": 150,
+  "mode": "nn",
+  "policy_type": "tabular",
+  "render": false,
+  "state_discretization": 51
+}

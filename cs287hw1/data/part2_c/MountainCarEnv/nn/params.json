@@ -1,0 +1,9 @@
+{
+  "action_discretization": 5,
+  "env": "MountainCarEnv",
+  "horizon": 1,
+  "max_iter": 150,
+  "mode": "nn",
+  "policy_type": "tabular",
+  "render": false
+}

@@ -1,0 +1,9 @@
+{
+  "env": "DoubleIntegratorEnv",
+  "exp_name": "test",
+  "horizon": 1,
+  "max_iter": 150,
+  "mode": "linear",
+  "policy_type": "look_ahead",
+  "render": false
+}

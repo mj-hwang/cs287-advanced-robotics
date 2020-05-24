@@ -1,0 +1,1 @@
+Logging to C:\Users\Minjune\Desktop\287\cs287hw1\cs287-hw1-code/data/part5/CartPoleEnv/modelinear_state_discretization51/
