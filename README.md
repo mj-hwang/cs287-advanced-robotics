@@ -5,7 +5,7 @@
 
 Followings are those projects and related materials covered/implemented in each project.
 
-- **Project 1**
+- [**Project 1**](/cs287hw1)
   - Value Iteration
   - Dicretization-based Optimal Control
   - Function Approximation Optimal Control
