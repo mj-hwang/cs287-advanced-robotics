@@ -32,4 +32,6 @@ Followings are those projects and related materials covered/implemented in each 
     - Trust Region Policy Optimization (TRPO)
     - Proximal Policy Optimization (PPO)
   - Deep Q-Learning
-    - Duel DQL
+    - DQN
+    - Double DQN
+    - Dueling DQN
