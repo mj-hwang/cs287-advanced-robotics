@@ -28,3 +28,8 @@ Followings are those projects and related materials covered/implemented in each 
   - Belief Space Planning
   
 - [**Project 5**](/cs287hw5)
+  - Policy Gradient
+    - Trust Region Policy Optimization (TRPO)
+    - Proximal Policy Optimization (PPO)
+  - Deep Q-Learning
+    - Duel DQL
