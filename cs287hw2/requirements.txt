@@ -5,5 +5,5 @@ matplotlib==3.0.2
 mujoco_py>=1.50.1.56
 #mujoco_py==2.0.2.2
 #numpy==1.15.4
-numpy==1.16.1
+numpy==1.22.0
 gym==0.12.5
